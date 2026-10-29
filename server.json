@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mrronaldlewisjrRE/voicedesk-ai-mcp",
+  "title": "VoiceDesk AI",
+  "description": "AI voice receptionist for US service businesses: services, pricing, fit checks, demo requests.",
+  "version": "1.0.0",
+  "websiteUrl": "https://voicedeskai.org/developers",
+  "repository": {
+    "url": "https://github.com/mrronaldlewisjrRE/voicedesk-ai-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://voicedeskai.org/api/mcp"
+    }
+  ]
+}
